@@ -10,7 +10,7 @@ function App() {
       setError("");
 
       const response = await fetch(
-        "http://localhost:3000/bfhl",
+  "https://bajaj-assignment-2egc.onrender.com/bfhl",
         {
           method: "POST",
           headers: {
